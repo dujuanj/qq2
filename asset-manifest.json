@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/git@github.com:dujuanj/fangqq.git/static/css/main.46edeff2.css",
+    "main.js": "/git@github.com:dujuanj/fangqq.git/static/js/main.c9f6144a.js",
+    "static/js/453.5fbd8385.chunk.js": "/git@github.com:dujuanj/fangqq.git/static/js/453.5fbd8385.chunk.js",
+    "index.html": "/git@github.com:dujuanj/fangqq.git/index.html",
+    "main.46edeff2.css.map": "/git@github.com:dujuanj/fangqq.git/static/css/main.46edeff2.css.map",
+    "main.c9f6144a.js.map": "/git@github.com:dujuanj/fangqq.git/static/js/main.c9f6144a.js.map",
+    "453.5fbd8385.chunk.js.map": "/git@github.com:dujuanj/fangqq.git/static/js/453.5fbd8385.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46edeff2.css",
+    "static/js/main.c9f6144a.js"
+  ]
+}
