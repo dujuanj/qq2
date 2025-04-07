@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import PhoneInput from "../components/PhoneInput";
 import Login from "../components/Login";
 import Validate from '../components/ValiPage'
@@ -13,7 +13,7 @@ const isAuthenticated = false;
 
 const AppRouter: React.FC = () => {
   return (
-    <Router basename="/qq2">
+    <Router>
       <Routes>
         <Route path="/" element={<PhoneInput />} />
         <Route
