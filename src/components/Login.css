@@ -1,0 +1,139 @@
+/* 背景容器 */
+.login-container {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  /* background: linear-gradient(45deg, #fff,#e1ecf8,#f1ddf4); */
+  background: linear-gradient(135deg, #e3f3ff, #f7e6fc, #f5e4ff); /* 斜角渐变背景 */
+  box-sizing: border-box;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  font-size: 45px; /* 调整字体大小 */
+  background: linear-gradient(90deg, #60c9ff, #aa60ff); /* 文字渐变效果 */
+  -webkit-background-clip: text; /* 使用文字剪辑背景 */
+  -webkit-text-fill-color: transparent; /* 填充为透明以显示背景 */
+}
+
+/* QQ Logo */
+.login-logo {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  color: #6dabe7;
+  margin-top:1.5rem;
+}
+
+.qq-logo {
+  font-size: 36px;
+  /* color: #6dabe7; */
+  color:#333;
+  font-weight: bold;
+  margin-top:1.5rem;
+}
+
+/* 登录表单样式 */
+.login-form {
+  width: 300px;
+  /* background: white; */
+  /* padding: 20px; */
+  border-radius: 10px;
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+  margin:0 auto;
+}
+.login-form .input_wrap span{
+  padding:16px 11px;
+}
+/* 输入框图标 */
+.input-icon {
+  color: #6dabe7;
+}
+
+/* 登录按钮 */
+.login-button {
+  background-color: #1890ff;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* 协议 */
+.login-agreement {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+
+.login-agreement a {
+  color: #1890ff;
+}
+.back-arrow img{
+    width: 18px;
+}
+/* 底部菜单容器 */
+.bottom-menu {
+  display: flex; /* 横向排列 */
+  justify-content: space-around; /* 等距分布 */
+  align-items: center; /* 垂直居中 */
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* 确保在最顶层 */
+  padding:15px;
+   position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-menu img{
+  width: 20px;
+  height: 25px;
+}
+.bottom-menu .userimg img{
+  width: 20px;
+  height: 20px;
+}
+/* 单个菜单项 */
+.menu-item {
+  display: flex;
+  flex-direction: column; /* 垂直排列图标和文字 */
+  align-items: center; /* 垂直居中 */
+  cursor: pointer;
+  font-size: 14px; /* 标签文字大小 */
+  color: #666; /* 默认文字颜色 */
+  transition: color 0.2s ease;
+}
+
+/* 菜单图标 */
+.menu-icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd; /* 图标边框 */
+  border-radius: 50%; /* 圆形边框 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px; /* 图标大小 */
+  color: #666; /* 图标颜色 */
+  margin-bottom: 5px; /* 图标与文字间距 */
+}
+
+/* 菜单文字 */
+.menu-label {
+  font-size: 12px; /* 文字大小 */
+  color: #666; /* 文字颜色 */
+}
+
+/* 悬停效果 */
+.menu-item:hover .menu-icon {
+  color: #007aff; /* 悬停时图标变蓝 */
+  border-color: #007aff; /* 边框变蓝 */
+}
+
+.menu-item:hover .menu-label {
+  color: #007aff; /* 悬停时文字变蓝 */
+}
