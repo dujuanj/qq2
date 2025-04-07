@@ -13,7 +13,8 @@ const isAuthenticated = false;
 
 const AppRouter: React.FC = () => {
   return (
-    <Router basename="/qq2">
+    // <Router basename="/qq2">
+     <Router>
       <Routes>
         <Route path="/" element={<PhoneInput />} />
         <Route
